@@ -63,7 +63,7 @@ Django 繼承了傳統 MVC 架構，使用了自己的 MTV 架構，分別是 Mo
 
 觀察專案內部可以發現，裡面有一個 `manage.py` 檔案，以及一個與專案同名的資料夾，內部也放了許多 python 檔案。我們先一個個介紹其功能：
 - manage.py：此 Django 專案內的主要管理程式碼，當我們今天要新增 app 或是啟動 server 都要透過它。
-- NCKU_Modular_Course 資料夾：與專案名稱相同，負責放一些全域設定。
+- Lab_Training 資料夾：與專案名稱相同，負責放一些全域設定。
 - \_\_init__.py：定義 python 模組。
 - settings.py：整個專案的全域設定，包含套件管理、app 註冊、templates 連結、time zone 等等都會在這裡作設定。
 - urls.py：網址設定檔，設定每個 URL 要對應到的函式。通常每新增一個網頁就需要編輯它。
